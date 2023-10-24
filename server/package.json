@@ -1,0 +1,26 @@
+{
+  "name": "nytdev",
+  "version": "1.0.0",
+  "description": "Get posts from NY Times and post it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "DEV.BEN",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "bcryptjs": "^2.4.3",
+    "cache-manager": "^5.2.4",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-session-cache-manager": "^1.0.2",
+    "mongoose": "^7.6.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react-router-dom": "^6.17.0"
+  }
+}
